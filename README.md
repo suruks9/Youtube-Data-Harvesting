@@ -8,8 +8,6 @@ An end-to-end project that demonstrates how to harvest, store, and visualize You
 - [Data Configuration](#data-configuration)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
