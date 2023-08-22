@@ -39,7 +39,7 @@ An end-to-end project that demonstrates how to harvest, store, and visualize You
 
 Run the Streamlit app to visualize the data:
 
-Copy code
+- Copy code
 streamlit run Youtube Data Harvesting using mongoDb and mysql.py
 
 Access the app through the provided URL and explore the interactive visualizations.
