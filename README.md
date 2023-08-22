@@ -21,21 +21,21 @@ An end-to-end project that demonstrates how to harvest, store, and visualize You
 
 ## Sample database configuration
 
-sql:
+- sql:
   host: localhost
   user: your_username
   password: your_password
   database: youtube_data
 
-mongodb:
-  host: localhost
-  port: 27017
-  username: your_username
-  password: your_password
-  database: youtube_data
+- mongodb:
+   host: localhost
+   port: 27017
+   username: your_username
+   password: your_password
+   database: youtube_data
 
-##Usage
-Ensure that data has been harvested and stored in the databases.
+## Usages
+ Ensure that data has been harvested and stored in the databases.
 
 Run the Streamlit app to visualize the data:
 
@@ -44,9 +44,9 @@ streamlit run Youtube Data Harvesting using mongoDb and mysql.py
 
 Access the app through the provided URL and explore the interactive visualizations.
 
-##Technologies
+## Technologies
 
-Python 3.8+: Data harvesting and processing.
-SQL (MySQL): Structured storage of YouTube data.
-MongoDB: Unstructured storage of YouTube data.
-Streamlit: Interactive data visualization and analysis.
+- Python 3.8+: Data harvesting and processing.
+- SQL (MySQL): Structured storage of YouTube data.
+- MongoDB: Unstructured storage of YouTube data.
+- Streamlit: Interactive data visualization and analysis.
