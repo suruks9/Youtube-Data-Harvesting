@@ -6,7 +6,6 @@ import pymongo
 import mysql.connector
 import sqlalchemy
 from sqlalchemy import create_engine
-# import pymysql
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -25,12 +24,6 @@ import streamlit as st
 if 'Get_state' not in st.session_state:
     st.session_state['Get_state'] = None
 
-# Now you can access or modify st.session_state.Get_state
-
-
-# Now you can access or modify attributes in st.session_state
-
-
 st.set_page_config(layout='wide')
 
 # Set your YouTube API credentials here
@@ -47,8 +40,6 @@ def main():
         options=["Project Overview and Objectives", "Data Collection", "Storing Data in MongoDB", "Data Migration to MySQL", "Data Analysis"],
         icons=["pencil-fill", "bar-chart-fill"],
         orientation="horizontal",
-
-        #"UC5p2HB41JVstSICaaqOr_oA", "UCCya-YUszMuiTAR3lfYMuog", "UCBnnsrvmuQ7tFdTL511dzBQ", "UC4950gpY6Qw1lCAcN6gNWwQ"
 
     )
     data = {
